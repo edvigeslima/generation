@@ -1,1 +1,1 @@
-Spring é um framwework.
+Spring é um framwework Java.
