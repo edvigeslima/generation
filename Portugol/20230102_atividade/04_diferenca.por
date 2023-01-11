@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
 
-    inteiro numero1, numero2, numero3, numero4, diferenca
+    real numero1, numero2, numero3, numero4, diferenca
 
     escreva("Número 1: ")
     leia(numero1)
