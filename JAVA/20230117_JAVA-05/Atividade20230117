@@ -1,0 +1,405 @@
+import Atividade01.*;
+import Atividade02.*;
+import Atividade03.*;
+
+public class Cliente {
+
+    // Variáveis
+    private String telefone;
+    private String endereco;
+
+    public Cliente(String telefone, String endereco) {
+        this.telefone = telefone;
+        this.endereco = endereco;
+    }
+
+    public String getTelefone() {
+        return telefone;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
+    }
+
+    public void visualizar(){
+        System.out.println("Telefone: "+ telefone + "\nEndereço: "+ endereco);
+
+    }
+}
+
+
+public class PessoaFisica extends Cliente {
+    private String nome;
+    private String CPF;
+    private String dataNascimento;
+
+    public PessoaFisica(String telefone, String endereco, String nome, String CPF, String dataNascimento) {
+        super(telefone, endereco);
+        this.nome = nome;
+        this.CPF = CPF;
+        this.dataNascimento = dataNascimento;
+
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getCPF() {
+        return CPF;
+    }
+
+    public void setCPF(String CPF) {
+        this.CPF = CPF;
+    }
+
+    public String getDataNascimento() {
+        return dataNascimento;
+    }
+
+    public void setDataNascimento(String dataNascimento) {
+        this.dataNascimento = dataNascimento;
+    }
+
+    public void visualizar(){
+
+        System.out.println("\n\n************************************************************");
+        System.out.println("Dados da Pessoa Física:");
+        System.out.println("************************************************************");
+        System.out.println("Nome: " + getNome());
+        System.out.println("CPF: " + getCPF());
+        System.out.println("Data de Nascimento: " + getDataNascimento());
+        super.visualizar();
+    }
+
+
+}
+
+public class PessoaJuridica extends Cliente {
+    private String razaoSocial;
+    private String CNPJ;
+    private String nomeFantasia;
+
+
+    public PessoaJuridica(String telefone, String endereco, String razaoSocial, String CNPJ, String nomeFantasia) {
+        super(telefone, endereco);
+        this.razaoSocial = razaoSocial;
+        this.CNPJ = CNPJ;
+        this.nomeFantasia = nomeFantasia;
+    }
+
+    public String getRazaoSocial() {
+        return razaoSocial;
+    }
+
+    public void setRazaoSocial(String razaoSocial) {
+        this.razaoSocial = razaoSocial;
+    }
+
+    public String getCNPJ() {
+        return CNPJ;
+    }
+
+    public void setCNPJ(String CNPJ) {
+        this.CNPJ = CNPJ;
+    }
+
+    public String getNomeFantasia() {
+        return nomeFantasia;
+    }
+
+    public void setNomeFantasia(String nomeFantasia) {
+        this.nomeFantasia = nomeFantasia;
+    }
+
+    public void visualizar(){
+
+        System.out.println("\n\n************************************************************");
+        System.out.println("Dados da Pessoa Jurídica:");
+        System.out.println("************************************************************");
+        System.out.println("CNPJ: " + getCNPJ());
+        System.out.println("Razão Social: " + getRazaoSocial());
+        System.out.println("Nome Fantasia: " + getNomeFantasia());
+        super.visualizar();
+    }
+}
+/**/
+
+package Atividade02;
+
+public class Funcionario {
+
+    // Variáveis
+    private String nome;
+    private int matricula;
+    private String telefone;
+
+
+    public Funcionario(String nome, int matricula, String telefone) {
+        this.nome = nome;
+        this.matricula = matricula;
+        this.telefone = telefone;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(int matricula) {
+        this.matricula = matricula;
+    }
+
+    public String getTelefone() {
+        return telefone;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+
+    public void visualizar(){
+        System.out.println("\n\nNome: "+ nome + "\nTelefone: "+ telefone);
+
+    }
+}
+
+package Atividade02;
+
+public class Gerente extends Funcionario {
+    private String subordinado;
+
+    public Gerente(String nome, int matricula, String telefone, String subordinado) {
+        super(nome, matricula, telefone);
+        this.subordinado = subordinado;
+
+    }
+
+    public String getSubordinado() {
+        return subordinado;
+    }
+
+    public void setSubordinado(String subordinado) {
+        this.subordinado = subordinado;
+    }
+
+    public void visualizar(){
+
+        System.out.println("\n\n************************************************************");
+        System.out.println("Dados - Gerente:");
+        System.out.println("************************************************************");
+        super.visualizar();
+        System.out.println("Subordinado: " + getSubordinado());
+
+    }
+
+
+}
+
+package Atividade02;
+
+public class Vendedor extends Funcionario {
+    private String lider;
+
+    public Vendedor(String nome, int matricula, String telefone, String lider) {
+        super(nome, matricula, telefone);
+        this.lider = lider;
+
+    }
+
+    public String getLider() {
+        return lider;
+    }
+
+    public void setLider(String lider) {
+        this.lider = lider;
+    }
+
+    public void visualizar(){
+
+        System.out.println("\n\n************************************************************");
+        System.out.println("Dados - Vendedor:");
+        System.out.println("************************************************************");
+        super.visualizar();
+        System.out.println("Líder: " + getLider());
+
+    }
+
+
+}
+
+/**/
+package Atividade03;
+
+public class Game {
+
+    // Variáveis
+    private String nome;
+    private int codigo;
+    private double preco;
+    private String descricao;
+
+    public Game(String nome, int codigo, double preco, String descricao) {
+        this.nome = nome;
+        this.codigo = codigo;
+        this.preco = preco;
+        this.descricao = descricao;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public void visualizar(){
+        System.out.println("\n\nNome: "+ nome + "\nCódigo: "+ codigo
+                        + "\nPreço: R$"+ preco + "\nDescrição: "+ descricao);
+
+    }
+}
+
+
+package Atividade03;
+
+public class Console extends Game{
+
+    private String tipo;
+
+
+    public Console(String nome, int codigo, double preco, String descricao, String tipo) {
+        super(nome, codigo, preco, descricao);
+        this.tipo = tipo;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public void visualizar(){
+        super.visualizar();
+        System.out.println("Tipo: "+ tipo);
+    }
+}
+
+
+package Atividade03;
+
+public class Jogo extends Game{
+
+    private String sistemaOperacional;
+
+
+    public Jogo(String nome, int codigo, double preco, String descricao, String sistemaOperacional) {
+        super(nome, codigo, preco, descricao);
+        this.sistemaOperacional = sistemaOperacional;
+    }
+
+    public String getSistemaOperacional() {
+        return sistemaOperacional;
+    }
+
+    public void setSistemaOperacional(String sistemaOperacional) {
+        this.sistemaOperacional = sistemaOperacional;
+    }
+
+    public void visualizar(){
+        super.visualizar();
+        System.out.println("Sistema Operacional: "+ sistemaOperacional);
+    }
+}
+
+public class Atividade20230117 {
+    public static void main(String[] args) {
+        //Atividade 01
+        System.out.print("\n*** Atividade 01 ***");
+
+        PessoaFisica cliente1 = new PessoaFisica("(83)99999-9999", "Rua 1, 08", "Malu", "123456789-04", "15-10-2018");
+        PessoaFisica cliente2 = new PessoaFisica("(93)98888-0000", "Av. José, 1000", "Ana", "987654321-00", "25-05-2000");
+
+        PessoaJuridica cliente3 = new PessoaJuridica("(83)3456-0987", "Rua 189, 08", "Açaí Brasil", "58.319.469/0001-78", "Açaí Brasil");
+        PessoaJuridica cliente4 = new PessoaJuridica("(93)3445-0921", "Av. José, 2000", "Ana Silva", "76.981.362/0001-72", "Ana Unhas");
+
+        cliente1.visualizar();
+        cliente2.visualizar();
+
+        cliente3.visualizar();
+        cliente4.visualizar();
+
+        //Atividade 02
+        System.out.print("\n*** Atividade 02 ***");
+        Gerente gerente1 = new Gerente("José", 12345, "(89)98765-0987", "João");
+        Gerente gerente2 = new Gerente("Tânia", 12350, "(93)98888-0000", "Carla");
+
+        Vendedor vendedor1 = new Vendedor("João", 87765, "(98)89789-0987", "José");
+        Vendedor vendedor2 = new Vendedor("Carla", 6542, "(88)90008-1234", "Tânia");
+
+        gerente1.visualizar();
+        vendedor1.visualizar();
+
+        gerente2.visualizar();
+        vendedor2.visualizar();
+
+        //Atividade 03
+        System.out.print("\n*** Atividade 03 ***");
+        Console game1 = new Console("XBOX", 12345567,  3449.99, "XBOX 2023", "microsoft");
+        Console game2 = new Console("playstation", 1564567,  4549.99, "playstation 5", "sony");
+        Jogo game3 = new Jogo("Fifa 2023", 1567234457,  129.99, "Jogo Online Fifa 2023", "XBOX");
+        Jogo game4 = new Jogo("Xadrez", 1289457,  129.99, "Xadrez", "linux");
+        game1.visualizar();
+        game2.visualizar();
+
+        game3.visualizar();
+        game4.visualizar();
+
+    }
+}
