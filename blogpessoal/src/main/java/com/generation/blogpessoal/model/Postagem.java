@@ -3,11 +3,12 @@ package com.generation.blogpessoal.model;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
+import org.hibernate.annotations.UpdateTimestamp;
 
 import java.time.LocalDateTime;
 
 @Entity
-@TableGenerator(name = "tb_postagens")
+@Table(name = "tb_postagens")
 public class Postagem {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,6 +22,7 @@ public class Postagem {
     @Size(min = 10, max = 1000, message = "O atributo texto deve conter no mínimo 10 e no máximo 1000 caracteres")
     private String texto;
 
+    @UpdateTimestamp
     private LocalDateTime data;
 
     public Long getId() {
