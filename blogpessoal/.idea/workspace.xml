@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5b936e3b-ce4a-4bdf-a00c-d29985a97056" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/blogpessoal.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/generation/blogpessoal/controller/PostagemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/generation/blogpessoal/controller/PostagemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/generation/blogpessoal/model/Postagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/generation/blogpessoal/model/Postagem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/generation/blogpessoal/repository/PostagemRespository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/generation/blogpessoal/repository/PostagemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/generation/blogpessoal/controller/PostagemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/generation/blogpessoal/controller/PostagemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/generation/blogpessoal/model/Postagem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/generation/blogpessoal/model/Postagem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/generation/blogpessoal/repository/PostagemRespository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/generation/blogpessoal/repository/PostagemRespository.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2KvDqMZvl2Npu7kREFIgIZMeLxp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/edviglima/Development/generation/blogpessoal&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;b41f11e6e309e0e241d6e06eac04a115&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="BlogpessoalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blogpessoal" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.generation.blogpessoal.BlogpessoalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b936e3b-ce4a-4bdf-a00c-d29985a97056" name="Changes" comment="" />
+      <created>1674846362871</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674846362871</updated>
+      <workItem from="1674846367141" duration="3401000" />
+      <workItem from="1675077788483" duration="9026000" />
+      <workItem from="1675101262320" duration="62000" />
+      <workItem from="1675101419770" duration="3232000" />
+      <workItem from="1675165293446" duration="1822000" />
+      <workItem from="1675171152150" duration="859000" />
+      <workItem from="1675172022595" duration="1861000" />
+      <workItem from="1675174070921" duration="3698000" />
+      <workItem from="1675193203223" duration="1883000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="4f716a21-1410-44ca-84c0-7859fa2cf5fd">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/edviglima/Development/generation/blogpessoal/src/main/java" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="4f716a21-1410-44ca-84c0-7859fa2cf5fd" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+</project>
