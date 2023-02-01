@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b936e3b-ce4a-4bdf-a00c-d29985a97056" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/generation/blogpessoal/controller/TemaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/generation/blogpessoal/model/Tema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/generation/blogpessoal/repository/TemaRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/generation/blogpessoal/controller/PostagemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/generation/blogpessoal/controller/PostagemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/generation/blogpessoal/model/Postagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/generation/blogpessoal/model/Postagem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/generation/blogpessoal/model/Postagem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/generation/blogpessoal/model/Postagem.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +85,7 @@
       <workItem from="1675172022595" duration="1861000" />
       <workItem from="1675174070921" duration="3698000" />
       <workItem from="1675193203223" duration="2837000" />
-      <workItem from="1675250866844" duration="9839000" />
+      <workItem from="1675250866844" duration="11717000" />
     </task>
     <servers />
   </component>
