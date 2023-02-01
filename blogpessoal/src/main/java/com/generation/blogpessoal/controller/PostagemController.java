@@ -57,10 +57,19 @@ public class PostagemController {
     public ResponseEntity<Postagem> put(@Valid @RequestBody Postagem postagem) {
         if (postagemRepository.existsById(postagem.getId())) {
 
-            if (temaRepository.existsById(postagem.getTema().getId()))
+           /*
+           Outra alternativa:
+           if (temaRepository.existsById(postagem.getTema().getId())) {
                 return ResponseEntity.status(HttpStatus.OK)
-                        .body(postagemRepository.save(postagem));
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+                      .body(postagemRepository.save(postagem)));
+           return ResponseEntity.status(HttpStatus.NOT_FOUND).build());
+
+            }*/
+
+            return temaRepository.findById(postagem.getTema().getId())
+                    .map(resposta -> ResponseEntity.status(HttpStatus.OK)
+                            .body(postagemRepository.save(postagem)))
+                    .orElse(ResponseEntity.status(HttpStatus.NOT_FOUND).build());
 
         }
 
