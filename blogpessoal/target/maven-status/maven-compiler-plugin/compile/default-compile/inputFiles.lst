@@ -1,2 +1,7 @@
-/Users/edviglima/Development/blogpessoal/src/main/java/com/generation/blogpessoal/model/Postagem.java
-/Users/edviglima/Development/blogpessoal/src/main/java/com/generation/blogpessoal/BlogpessoalApplication.java
+/Users/edviglima/Development/generation/blogpessoal/src/main/java/com/generation/blogpessoal/controller/TemaController.java
+/Users/edviglima/Development/generation/blogpessoal/src/main/java/com/generation/blogpessoal/model/Tema.java
+/Users/edviglima/Development/generation/blogpessoal/src/main/java/com/generation/blogpessoal/repository/TemaRepository.java
+/Users/edviglima/Development/generation/blogpessoal/src/main/java/com/generation/blogpessoal/model/Postagem.java
+/Users/edviglima/Development/generation/blogpessoal/src/main/java/com/generation/blogpessoal/controller/PostagemController.java
+/Users/edviglima/Development/generation/blogpessoal/src/main/java/com/generation/blogpessoal/BlogpessoalApplication.java
+/Users/edviglima/Development/generation/blogpessoal/src/main/java/com/generation/blogpessoal/repository/PostagemRepository.java
